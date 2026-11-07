@@ -19,8 +19,11 @@ TEXT_ON_BACKGROUND = """
 """.split()
 
 PAIRS = [(key, "background", 4.5) for key in TEXT_ON_BACKGROUND] + [
+    # Templates use muted both as dim text and as a fill under foreground text,
+    # so 4.5 on one side forces the other below 4.5; both sides are held to 3.0.
     ("muted", "background", 3.0),
     ("muted", "lighter_background", 3.0),
+    ("foreground", "muted", 3.0),
     ("foreground", "lighter_background", 4.5),
     ("foreground", "selection", 4.5),
     ("dark_foreground", "selection", 4.5),
