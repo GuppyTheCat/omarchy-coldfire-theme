@@ -21,3 +21,4 @@ magenta = "#d686d9"
 brown = "#b5835a"
 
 hyprland_active_border = "rgba(5b9cffee) rgba(ff8a4cee) 45deg"
+hyprland_inactive_border = "rgba(263355aa)"
