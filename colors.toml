@@ -4,10 +4,10 @@ accent = "#6cc8f5"
 background = "#0b0f1c"
 lighter_background = "#151b2e"
 selection = "#263355"
-muted = "#525e85"
+muted = "#5e6b98"
 
 foreground = "#d6deef"
-dark_foreground = "#8b95b3"
+dark_foreground = "#949db9"
 light_foreground = "#e6ecf7"
 bright_foreground = "#f4f7ff"
 
