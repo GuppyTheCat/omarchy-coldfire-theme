@@ -20,8 +20,10 @@ TEXT_ON_BACKGROUND = """
 
 PAIRS = [(key, "background", 4.5) for key in TEXT_ON_BACKGROUND] + [
     ("muted", "background", 3.0),
+    ("muted", "lighter_background", 3.0),
     ("foreground", "lighter_background", 4.5),
     ("foreground", "selection", 4.5),
+    ("dark_foreground", "selection", 4.5),
     ("selection_foreground", "selection_background", 4.5),
     ("background", "accent", 4.5),
 ]
